@@ -1,10 +1,8 @@
 # sp500-top20-analysis
-Data analysis of top 20 S&P 500 companies (2014–2024) using PostgreSQL and Power BI
+Analiza danych giełdowych 20 największych spółek z indeksu S&P 500 (2014–2024) przy użyciu PostgreSQL i Power BI
 
 **ENGLISH BELOW**
 
-
-### Analiza danych giełdowych 20 największych spółek z indeksu S&P 500 (2014–2024) przy użyciu PostgreSQL i Power BI
 
 ## Dashboard Power BI
 
