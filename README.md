@@ -4,11 +4,18 @@ Data analysis of top 20 S&P 500 companies (2014–2024) using PostgreSQL and Pow
 **ENGLISH BELOW**
 
 
-# Analiza 20 największych spółek z indeksu S&P 500 (wersja polska)
+# Analiza danych giełdowych 20 największych spółek z indeksu S&P 500 (2014–2024) przy użyciu PostgreSQL i Power BI)
 
+## Dashboard Power BI
+
+---
 
 
 ![Dashboard Power BI](img/dashboard_top20_sp500.jpg)
+
+
+
+Projekt zawiera interaktywny dashboard stworzony w Power BI, który umożliwia eksplorację danych za pomocą filtrów i dynamicznych wizualizacji. Model danych został zbudowany na podstawie widoków zaimportowanych z bazy PostgreSQL, gdzie kluczowym elementem jest symbol spółki. W razie potrzeby tworzono dodatkowe kolumny i miary w celu ułatwienia analizy oraz lepszego zobrazowania danych w raportach. Dzięki temu możliwe jest szybkie filtrowanie i szczegółowa analiza danych wybranej firmy.
 
 ---
 
@@ -41,6 +48,7 @@ Projekt zawiera szereg funkcji i widoków, które umożliwiają analizę danych 
 
 - `sql/` – zapytania SQL  
 - `data/` – dane źródłowe CSV
-- `power_bi/` – dashboard w formacie .pbix
+- `power_bi/` – dashboard (.pbix)
 - `img/` – dashboard Power BI, schemat ERD
-- `README.md` – opis projektu  
+- `README.md` – opis projektu
+
