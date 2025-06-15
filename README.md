@@ -52,7 +52,7 @@ Projekt edukacyjny łączący analizę danych, pracę w PostgreSQL oraz tworzeni
 
 ---
 
-## Źródła / Podziękowania  
+## Źródła 
 
 Dane giełdowe pobrano z serwisu [Stooq](https://stooq.pl/).
 
@@ -111,7 +111,7 @@ An educational project combining data analysis, work in PostgreSQL, and the crea
 
 ---
 
-## Sources / Credits  
+## Sources
 
 Stock market data taken from [Stooq](https://stooq.pl/).
 
