@@ -6,13 +6,13 @@ Analiza danych giełdowych 20 największych spółek z indeksu S&P 500 (2014–2
 
 ## Dashboard Power BI
 
+Projekt zawiera interaktywny dashboard stworzony w Power BI, który umożliwia eksplorację danych za pomocą filtrów i dynamicznych wizualizacji. Model danych został zbudowany na podstawie widoków zaimportowanych z bazy PostgreSQL, gdzie kluczowym elementem jest symbol spółki. W razie potrzeby tworzono dodatkowe kolumny i miary w celu ułatwienia analizy oraz lepszego zobrazowania danych w raportach. Dzięki temu możliwe jest szybkie filtrowanie i szczegółowa analiza danych wybranej firmy.
 
 
 ![Dashboard Power BI](img/dashboard_top20_sp500.jpg)
 
 
 
-Projekt zawiera interaktywny dashboard stworzony w Power BI, który umożliwia eksplorację danych za pomocą filtrów i dynamicznych wizualizacji. Model danych został zbudowany na podstawie widoków zaimportowanych z bazy PostgreSQL, gdzie kluczowym elementem jest symbol spółki. W razie potrzeby tworzono dodatkowe kolumny i miary w celu ułatwienia analizy oraz lepszego zobrazowania danych w raportach. Dzięki temu możliwe jest szybkie filtrowanie i szczegółowa analiza danych wybranej firmy.
 
 ---
 
