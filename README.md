@@ -25,3 +25,22 @@ Baza danych została zaprojektowana w PostgreSQL i zawiera następujące tabele:
 
 
 Projekt zawiera szereg funkcji i widoków, które umożliwiają analizę danych giełdowych w Power BI w celu wizualizacji oraz dostarczenia wniosków.
+
+---
+
+## Technologie i narzędzia
+
+- **PostgreSQL** – relacyjna baza danych, przechowywanie i przetwarzanie danych, tworzenie zapytań analitycznych, funkcji i widoków  
+- **Power BI** – dashboard interaktywny, model danych oraz dodatkowe kolumny i miary, końcowa prezentacja wyników analizy  
+- **PyCharm** – środowisko pracy z danymi i zarządzania kodem   
+- **CSV** – format danych źródłowych  
+
+---
+
+## Struktura folderów
+
+- `sql/` – zapytania SQL  
+- `data/` – dane źródłowe CSV
+- `power_bi/` – dashboard w formacie .pbix
+- `img/` – dashboard Power BI, schemat ERD
+- `README.md` – opis projektu  
