@@ -52,3 +52,16 @@ Projekt zawiera szereg funkcji i widoków, które umożliwiają analizę danych 
 - `img/` – dashboard Power BI, schemat ERD
 - `README.md` – opis projektu
 
+---
+
+## Autor
+
+Projekt stworzony w ramach nauki analizy danych i BI. Dane i dashboard mają charakter edukacyjny.
+
+---
+
+## Źródła / Podziękowania
+
+Dane giełdowe pobrano z serwisu [Stooq](https://stooq.pl/).
+
+
