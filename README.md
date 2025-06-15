@@ -113,5 +113,5 @@ An educational project combining data analysis, work in PostgreSQL, and the crea
 
 ## Sources / Credits  
 
-Stock market data obtained from [Stooq](https://stooq.pl/).
+Stock market data taken from [Stooq](https://stooq.pl/).
 
