@@ -1,0 +1,21 @@
+﻿company_id;symbol;company_name;sector
+1;msft;Microsoft Corporation;Technology
+2;nvda;NVIDIA Corporation;Technology
+3;aapl;Apple Inc.;Technology
+4;amzn;Amazon.com, Inc.;Retail
+5;meta;Meta Platforms, Inc.;Technology
+6;avgo;Broadcom Inc.;Technology
+7;googl;Alphabet Inc. (Class A);Technology
+8;brk_b;Berkshire Hathaway Inc.;Finance
+9;goog;Alphabet Inc. (Class C);Technology
+10;tsla;Tesla, Inc.;Automotive
+11;wmt;Walmart Inc.;Retail
+12;jpm;JPMorgan Chase & Co.;Finance
+13;v;Visa Inc.;Finance
+14;lly;Eli Lilly and Company;Pharmaceuticals
+15;nflx;Netflix, Inc.;Media
+16;ma;Mastercard Incorporated;Finance
+17;orcl;Oracle Corporation;Technology
+18;cost;Costco Wholesale Corporation;Retail
+19;xom;Exxon Mobil Corporation;Energy
+20;pg;Procter & Gamble Company;Consumer Goods
