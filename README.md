@@ -1,4 +1,4 @@
-# sp500-top20-analysis  
+# sp500-top20-stock-data-analysis 
 Analiza danych giełdowych 20 największych spółek z indeksu S&P 500 (2014–2024) przy użyciu PostgreSQL i Power BI  
 
 **ENGLISH BELOW**
@@ -59,7 +59,7 @@ Dane giełdowe pobrano z serwisu [Stooq](https://stooq.pl/).
 ---
 ---
 
-# sp500-top20-analysis  
+# sp500-top20-stock-data-analysis 
 Stock market data analysis of the 20 largest companies in the S&P 500 index (2014–2024) using PostgreSQL and Power BI  
 
 ---
