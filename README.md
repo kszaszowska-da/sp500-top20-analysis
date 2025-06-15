@@ -8,7 +8,6 @@ Data analysis of top 20 S&P 500 companies (2014–2024) using PostgreSQL and Pow
 
 ## Dashboard Power BI
 
----
 
 
 ![Dashboard Power BI](img/dashboard_top20_sp500.jpg)
