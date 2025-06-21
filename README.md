@@ -128,7 +128,7 @@ Odchylenie standardowe cen zamknięcia (2014–2024) dla każdej firmy z TOP 20 
 ### 6. Które firmy miały najwięcej dni wzrostowych i spadkowych (różnica)?
 
 **Cel analizy:**
-Zidentyfikować, czy dana firma częściej zyskuje, czy traci na wartości w ciągu dnia – czyli jaki jest dominujący kierunek dziennych zmian cen akcji.
+Zidentyfikować, czy dana firma częściej zyskuje, czy traci na wartości w ciągu dnia, czyli jaki jest dominujący kierunek dziennych zmian cen akcji.
 
 **Co analizujemy:**
 Dla każdej firmy liczbę dni, w których:
@@ -204,130 +204,131 @@ As a result, users can easily filter and perform in-depth analysis of a selected
 
 ---
 
-## Research Questions and Results Summary
+## Research Questions and Result Analysis
 
+### 1. Which companies have the highest average trading volume and the highest average closing price?
 
-### 1. Which companies have the highest average trading volume and highest average closing price?
-
-**Objective:**
-Identify companies that attract the most investor attention (high trading volume) and those with the highest stock valuations (average closing price).
-
-**What we analyze:**
-For each of the top 20 companies in the S\&P 500 index, we examine:
-
-* Average trading volume (mean number of shares traded daily)
-* Average closing price (mean of daily closing prices)
-
-**Findings:**
-
-* **Costco (COST)** and **Netflix (NFLX)** had the highest average closing prices – over \$300.
-* **NVIDIA (NVDA)** had by far the highest average trading volume – nearly half a billion shares – far surpassing other companies.
-* Despite a relatively moderate average price, NVIDIA's high volume reflects extreme investor interest, likely driven by technological momentum and market hype.
-* Companies like **META, TSLA**, and **AMZN** also show high results in one or both metrics, underlining their strong market presence and investor appeal.
-
-
-### 2. Average daily percentage change between opening and closing price
-
-**Objective:**
-Assess whether a company’s stock tends to gain or lose value during the day.
+**Purpose:**
+Identify companies with the greatest investor interest (high trading volume) and those achieving the highest stock prices (average closing price).
 
 **What we analyze:**
-Average daily percentage difference calculated using the formula:
-`(closing – opening) / opening × 100`
-This is averaged across all days per company.
+For each company in the top 20 of the S\&P 500 index we analyze:
 
-**Findings:**
+* average trading volume (average number of shares traded during the period)
+* average closing price (average end-of-day price)
 
-* **NVIDIA (NVDA)** had the highest average positive daily change, indicating that it most often ended trading days higher than it started.
-* **AAPL, META, LLY, ORCL**, and **TSLA** also showed positive daily averages, signaling frequent intraday gains.
-* **Berkshire Hathaway (BRK\_B)** and **AMZN** were the only companies with negative averages, suggesting they more often closed below their opening price.
+**Conclusions:**
+
+* The highest average closing prices were for **Costco (COST)** and **Netflix (NFLX)** — above \$300.
+* The company with the highest average trading volume is clearly **NVIDIA (NVDA)** — nearly 0.5 billion shares, far exceeding other companies.
+* Despite a relatively low average closing price, NVIDIA attracts huge investor interest, likely due to rapid technological growth and market popularity.
+* Companies like **META, TSLA**, and **AMZN** also rank high in one or both metrics, confirming their strong market activity and investor appeal.
 
 
-### 3. Average closing price in 2014–2024
+### 2. Average percentage difference between opening and closing prices for each company
 
-**Objective:**
-Identify long-term price trends and track stock value evolution over time.
+**Purpose:**
+Check which companies tend to gain or lose value during the day, meaning whether their stock prices generally rise or fall within a single trading session.
+
+**What we analyze:**
+The average daily percentage difference calculated as:
+`(closing - opening) / opening × 100`
+for each day, then averaged over all days for each company.
+
+**Conclusions:**
+
+* **NVIDIA (NVDA)** has the highest positive average difference, meaning it most often closes higher than it opens.
+* **AAPL, META, LLY, ORCL,** and **TSLA** also show positive average daily changes, often gaining value during the day.
+* Only **Berkshire Hathaway (BRK\_B)** and **AMZN** show negative average differences, indicating their prices tend to fall during the day.
+
+
+### 3. Average closing price from 2014 to 2024
+
+**Purpose:**
+Identify long-term price trends and changes in stock values over time.
 
 **What we analyze:**
 
-* Yearly average closing prices between 2014 and 2024 (sampled every 2 years)
-* Growth comparison (2014 vs. 2024):
+* Annual average closing prices from 2014 to 2024 (measured every two years)
+* Growth from 2014 to 2024 in:
 
-  * Absolute price difference (USD)
-  * Relative growth (percentage)
+  * absolute terms (price difference in USD)
+  * percentage terms (rate of change)
 
-**Findings:**
+**Conclusions:**
 
-* **Top absolute gainers (in USD):**
+* **Top absolute growth leaders (USD):**
 
-  * **Eli Lilly (LLY)** – +\$759.82
-  * **Costco (COST)** – +\$722.06
-  * **Netflix (NFLX)** – +\$614.00
-  * **Meta (META)** – +\$440.49
-* **Top percentage gainers:**
+  * **Eli Lilly (LLY)** +759.82 USD
+  * **Costco (COST)** +722.06 USD
+  * **Netflix (NFLX)** +614.00 USD
+  * **Meta (META)** +440.49 USD
 
-  * **NVIDIA (NVDA)** – +24,402.27%
-  * **Broadcom (AVGO)** – +2,591.68%
-  * **Eli Lilly (LLY)** – +1,488.38%
-  * **Tesla (TSLA)** – +1,448.76%
-* **Lowest value and growth:**
+* **Top percentage growth leaders:**
 
-  * **ExxonMobil (XOM)** – only +\$47.59 and +72.23%
+  * **NVIDIA (NVDA)** +24,402.27%
+  * **Broadcom (AVGO)** +2,591.68%
+  * **Eli Lilly (LLY)** +1,488.38%
+  * **Tesla (TSLA)** +1,448.76%
 
-Most companies show long-term growth in average closing price, confirming increasing market valuations. **NVIDIA** and **LLY** are standout long-term performers.
+* **Lowest growth in value and percentage:**
+
+  * **ExxonMobil (XOM)** only +47.59 USD and +72.23%
+
+Most companies show long-term increases in average closing prices, indicating positive market perception of their value. **NVIDIA** and **LLY** are the decade's leaders.
 
 
-### 4. In which months were average stock prices highest (10-year average)?
+### 4. In which months was the average stock price the highest (10-year average)?
 
-**Objective:**
-Determine seasonal price trends.
+**Purpose:**
+Identify seasonality in stock prices.
 
 **What we analyze:**
-10-year monthly averages of daily closing prices (averaged per month across all years).
+Average monthly closing prices aggregated over 10 years.
 
-**Findings:**
+**Conclusions:**
 
-* Seasonality is visible – most sectors show rising prices toward year-end, especially in **November** and **December**.
-* The January effect is limited – no strong jumps in early-year prices across sectors.
-* Summer (July–August) shows price stagnation, especially in consumer goods, tech, and energy.
-* Energy prices are lowest during the summer, likely due to reduced demand and higher output from renewables.
+* Seasonality is visible — most sectors show rising trends toward the end of the year, especially November and December.
+* The January effect is moderate — no clear price spikes in January for most sectors.
+* The summer period (July–August) sees a slowdown, especially in consumer goods, tech, and energy sectors.
+* Lowest energy prices occur in summer months, likely due to lower consumption and increased renewable energy production.
 
 
 ### 5. Which companies had the highest stock price volatility (standard deviation)?
 
-**Objective:**
-Measure investment risk – the higher the volatility, the less predictable the stock price.
+**Purpose:**
+Measure investment risk — higher volatility means less predictability of future stock price.
 
 **What we analyze:**
-Standard deviation of daily closing prices (2014–2024) for each of the top 20 S\&P 500 companies. Average closing price is also included for context.
+Standard deviation of closing prices (2014–2024) for each company in the S\&P 500 top 20. The average closing price is also considered for context.
 
-**Findings:**
+**Conclusions:**
 
-* Highest volatility observed in: **Eli Lilly (LLY), Costco (COST), Netflix (NFLX)** – with standard deviations >200.
-* Other high-volatility companies include: **META, Mastercard (MA), Microsoft (MSFT)** – all with standard deviations >130.
-* Lowest volatility: **Walmart (WMT), ExxonMobil (XOM)** – with values under 30.
-* Additional insight:
+* Highest volatility observed for **Eli Lilly (LLY), Costco (COST), Netflix (NFLX)** — deviations above 200.
+* Other highly volatile companies: **META, Mastercard (MA), Microsoft (MSFT)** — deviations above 130.
+* Lowest volatility seen in **Walmart (WMT), ExxonMobil (XOM)** — deviations below 30.
+* Additional notes:
 
-  * **Berkshire Hathaway (BRK\_B)** had high prices but moderate volatility.
-  * **Tesla (TSLA)** showed above-average risk despite a moderate price level.
+  * **Berkshire Hathaway (BRK\_B)** has a high price but moderate volatility.
+  * **Tesla (TSLA)**, despite average price, shows relatively high risk.
 
 
-### 6. Which companies had the most up days vs. down days (difference)?
+### 6. Which companies had the most gain and loss days (difference)?
 
-**Objective:**
-Identify whether a company’s stock tends to close higher or lower than it opens – and how frequently.
+**Purpose:**
+Identify whether a company more often gains or loses value during the day — the dominant direction of daily stock price changes.
 
 **What we analyze:**
-For each company, count of days where:
+For each company, count of days when:
 
-* Closing price > opening price → up day
-* Closing price < opening price → down day
+* closing price > opening price → gain day
+* closing price < opening price → loss day
 
-**Findings:**
+**Conclusions:**
 
-* Companies with the most **positive day balance**: **Mastercard (MA), Apple (AAPL), Oracle (ORCL), Microsoft (MSFT)** – with over 180–200 more up days than down days.
-* **ExxonMobil (XOM)** and **Berkshire Hathaway (BRK\_B)** had more down days than up days.
-* **Tesla (TSLA)** and **Amazon (AMZN)** showed a nearly 50/50 split, suggesting high volatility with no consistent direction.
+* Companies with the largest number of gain days are **Mastercard (MA), Apple (AAPL), Oracle (ORCL), Microsoft (MSFT)**. They had over 180–200 positive days between 2014 and 2024.
+* Companies like **ExxonMobil (XOM)** and **Berkshire Hathaway (BRK\_B)** had more loss days than gain days.
+* **Tesla (TSLA)** and **Amazon (AMZN)** had almost an equal number of gain and loss days, indicating high volatility and no dominant trend.
 
 ---
 
