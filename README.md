@@ -201,7 +201,6 @@ As a result, users can easily filter and perform in-depth analysis of a selected
 
 ![Dashboard Power BI](img/dashboard_top20_sp500.jpg)
 
-Pewnie — oto pełne tłumaczenie na **angielski**, zachowujące styl, strukturę i formatowanie, gotowe do wklejenia do `README.md` bez zmian:
 
 ---
 
