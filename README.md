@@ -192,7 +192,7 @@ Stock market data analysis of the 20 largest companies in the S&P 500 index (201
 
 ---
 
-## Power BI Dashboard  
+## Dashboard Power BI  
 
 The project features an **interactive dashboard** built in Power BI, allowing users to explore data through filters and dynamic visualizations.  
 The data model is based on views imported from a PostgreSQL database, where the company symbol is the key element.  
