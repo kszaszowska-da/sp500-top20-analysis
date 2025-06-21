@@ -201,6 +201,135 @@ As a result, users can easily filter and perform in-depth analysis of a selected
 
 ![Dashboard Power BI](img/dashboard_top20_sp500.jpg)
 
+Pewnie — oto pełne tłumaczenie na **angielski**, zachowujące styl, strukturę i formatowanie, gotowe do wklejenia do `README.md` bez zmian:
+
+---
+
+## Research Questions and Results Summary
+
+
+### 1. Which companies have the highest average trading volume and highest average closing price?
+
+**Objective:**
+Identify companies that attract the most investor attention (high trading volume) and those with the highest stock valuations (average closing price).
+
+**What we analyze:**
+For each of the top 20 companies in the S\&P 500 index, we examine:
+
+* Average trading volume (mean number of shares traded daily)
+* Average closing price (mean of daily closing prices)
+
+**Findings:**
+
+* **Costco (COST)** and **Netflix (NFLX)** had the highest average closing prices – over \$300.
+* **NVIDIA (NVDA)** had by far the highest average trading volume – nearly half a billion shares – far surpassing other companies.
+* Despite a relatively moderate average price, NVIDIA's high volume reflects extreme investor interest, likely driven by technological momentum and market hype.
+* Companies like **META, TSLA**, and **AMZN** also show high results in one or both metrics, underlining their strong market presence and investor appeal.
+
+
+### 2. Average daily percentage change between opening and closing price
+
+**Objective:**
+Assess whether a company’s stock tends to gain or lose value during the day.
+
+**What we analyze:**
+Average daily percentage difference calculated using the formula:
+`(closing – opening) / opening × 100`
+This is averaged across all days per company.
+
+**Findings:**
+
+* **NVIDIA (NVDA)** had the highest average positive daily change, indicating that it most often ended trading days higher than it started.
+* **AAPL, META, LLY, ORCL**, and **TSLA** also showed positive daily averages, signaling frequent intraday gains.
+* **Berkshire Hathaway (BRK\_B)** and **AMZN** were the only companies with negative averages, suggesting they more often closed below their opening price.
+
+
+### 3. Average closing price in 2014–2024
+
+**Objective:**
+Identify long-term price trends and track stock value evolution over time.
+
+**What we analyze:**
+
+* Yearly average closing prices between 2014 and 2024 (sampled every 2 years)
+* Growth comparison (2014 vs. 2024):
+
+  * Absolute price difference (USD)
+  * Relative growth (percentage)
+
+**Findings:**
+
+* **Top absolute gainers (in USD):**
+
+  * **Eli Lilly (LLY)** – +\$759.82
+  * **Costco (COST)** – +\$722.06
+  * **Netflix (NFLX)** – +\$614.00
+  * **Meta (META)** – +\$440.49
+* **Top percentage gainers:**
+
+  * **NVIDIA (NVDA)** – +24,402.27%
+  * **Broadcom (AVGO)** – +2,591.68%
+  * **Eli Lilly (LLY)** – +1,488.38%
+  * **Tesla (TSLA)** – +1,448.76%
+* **Lowest value and growth:**
+
+  * **ExxonMobil (XOM)** – only +\$47.59 and +72.23%
+
+Most companies show long-term growth in average closing price, confirming increasing market valuations. **NVIDIA** and **LLY** are standout long-term performers.
+
+
+### 4. In which months were average stock prices highest (10-year average)?
+
+**Objective:**
+Determine seasonal price trends.
+
+**What we analyze:**
+10-year monthly averages of daily closing prices (averaged per month across all years).
+
+**Findings:**
+
+* Seasonality is visible – most sectors show rising prices toward year-end, especially in **November** and **December**.
+* The January effect is limited – no strong jumps in early-year prices across sectors.
+* Summer (July–August) shows price stagnation, especially in consumer goods, tech, and energy.
+* Energy prices are lowest during the summer, likely due to reduced demand and higher output from renewables.
+
+
+### 5. Which companies had the highest stock price volatility (standard deviation)?
+
+**Objective:**
+Measure investment risk – the higher the volatility, the less predictable the stock price.
+
+**What we analyze:**
+Standard deviation of daily closing prices (2014–2024) for each of the top 20 S\&P 500 companies. Average closing price is also included for context.
+
+**Findings:**
+
+* Highest volatility observed in: **Eli Lilly (LLY), Costco (COST), Netflix (NFLX)** – with standard deviations >200.
+* Other high-volatility companies include: **META, Mastercard (MA), Microsoft (MSFT)** – all with standard deviations >130.
+* Lowest volatility: **Walmart (WMT), ExxonMobil (XOM)** – with values under 30.
+* Additional insight:
+
+  * **Berkshire Hathaway (BRK\_B)** had high prices but moderate volatility.
+  * **Tesla (TSLA)** showed above-average risk despite a moderate price level.
+
+
+### 6. Which companies had the most up days vs. down days (difference)?
+
+**Objective:**
+Identify whether a company’s stock tends to close higher or lower than it opens – and how frequently.
+
+**What we analyze:**
+For each company, count of days where:
+
+* Closing price > opening price → up day
+* Closing price < opening price → down day
+
+**Findings:**
+
+* Companies with the most **positive day balance**: **Mastercard (MA), Apple (AAPL), Oracle (ORCL), Microsoft (MSFT)** – with over 180–200 more up days than down days.
+* **ExxonMobil (XOM)** and **Berkshire Hathaway (BRK\_B)** had more down days than up days.
+* **Tesla (TSLA)** and **Amazon (AMZN)** showed a nearly 50/50 split, suggesting high volatility with no consistent direction.
+
 ---
 
 ## Database Structure  
