@@ -73,19 +73,19 @@ Zidentyfikować długoterminowe trendy cenowe oraz zmiany wartości akcji w czas
 
 * **Liderzy wzrostu wartościowego (USD):**
 
-  * **Eli Lilly (LLY)** – +759,82 USD
-  * **Costco (COST)** – +722,06 USD
-  * **Netflix (NFLX)** – +614,00 USD
-  * **Meta (META)** – +440,49 USD
+  * **Eli Lilly (LLY)** +759,82 USD
+  * **Costco (COST)** +722,06 USD
+  * **Netflix (NFLX)** +614,00 USD
+  * **Meta (META)** +440,49 USD
 * **Liderzy wzrostu procentowego:**
 
-  * **NVIDIA (NVDA)** – +24 402,27%
-  * **Broadcom (AVGO)** – +2 591,68%
-  * **Eli Lilly (LLY)** – +1 488,38%
-  * **Tesla (TSLA)** – +1 448,76%
+  * **NVIDIA (NVDA)** +24 402,27%
+  * **Broadcom (AVGO)** +2 591,68%
+  * **Eli Lilly (LLY)** +1 488,38%
+  * **Tesla (TSLA)** +1 448,76%
 * **Najniższe zmiany wartościowe i procentowe:**
 
-  * **ExxonMobil (XOM)** – tylko +47,59 USD i +72,23%
+  * **ExxonMobil (XOM)** tylko +47,59 USD i +72,23%
 
 Większość firm notuje długoterminowy wzrost średnich cen zamknięcia, co wskazuje na pozytywne postrzeganie ich wartości przez rynek. **NVIDIA** i **LLY** to liderzy dekady.
 
