@@ -16,15 +16,9 @@ Dzięki temu możliwe jest szybkie filtrowanie i szczegółowa analiza danych wy
 
 ---
 
-## Pytania badawcze i analiza wyników
-
-Świetnie — oto gotowy tekst, **idealnie przygotowany do wklejenia do `README.md`**, z pogrubieniami (`**`) i czystym formatowaniem Markdown, **bez emotikonów i bez nagłówków stylu HTML**:
-
----
 
 ## Pytania badawcze i analiza wyników
 
----
 
 ### 1. Które firmy mają największy średni obrót akcjami oraz najwyższą średnią cenę zamknięcia?
 
