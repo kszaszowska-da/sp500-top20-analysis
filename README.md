@@ -90,13 +90,13 @@ Zidentyfikować długoterminowe trendy cenowe oraz zmiany wartości akcji w czas
 Większość firm notuje długoterminowy wzrost średnich cen zamknięcia, co wskazuje na pozytywne postrzeganie ich wartości przez rynek. **NVIDIA** i **LLY** to liderzy dekady.
 
 
-### 4. W których miesiącach średnia cena akcji była najwyższa (średnia z 10 lat)?
+### 4. W których miesiącach średnia cena akcji była najwyższa (średnia z 11 lat)?
 
 **Cel analizy:**
 Wskazanie sezonowości cen akcji.
 
 **Co analizujemy:**
-Średnie miesięczne ceny zamknięcia z każdego miesiąca (zsumowane dla 10 lat).
+Średnie miesięczne ceny zamknięcia z każdego miesiąca (zsumowane dla 11 lat).
 
 **Wnioski:**
 
@@ -278,13 +278,13 @@ Identify long-term price trends and changes in stock values over time.
 Most companies show long-term increases in average closing prices, indicating positive market perception of their value. **NVIDIA** and **LLY** are the decade's leaders.
 
 
-### 4. In which months was the average stock price the highest (10-year average)?
+### 4. In which months was the average stock price the highest (11-year average)?
 
 **Purpose:**
 Identify seasonality in stock prices.
 
 **What we analyze:**
-Average monthly closing prices aggregated over 10 years.
+Average monthly closing prices aggregated over 11 years.
 
 **Conclusions:**
 
